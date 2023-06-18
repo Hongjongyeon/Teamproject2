@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/workout1"
     tools:context=".MainActivity">
 
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -23,7 +23,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="WBC운동앱"
+                android:text="WBC"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_marginStart="8dp" />
@@ -42,10 +42,11 @@
                 android:id="@+id/Workout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/team_project"
                 android:text="운동"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_margin="16dp" />
+                android:textStyle="bold" />
 
 
             <Button
@@ -53,6 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
+                android:background="@drawable/team_project"
                 android:text="식단 관리표"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -62,23 +64,27 @@
                 android:id="@+id/Plan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/team_project"
                 android:text="계획 캘린더"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_margin="16dp" />
+                android:textStyle="bold" />
 
 
             <Button
                 android:id="@+id/Profile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/team_project"
                 android:text="프로필"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_margin="16dp" />
+                android:textStyle="bold" />
 
         </LinearLayout>
     </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,6 +24,10 @@
         <activity android:name=".Diet"/>
         <activity android:name=".Plan"/>
         <activity android:name=".Workout"/>
+        <activity android:name=".Workout2"/>
+        <activity android:name=".Workout3"/>
+        <activity android:name=".Workout4"/>
+        <activity android:name=".Workout5"/>
         <activity android:name=".Profile"/>
     </application>
 

@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Diet">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="식단관리"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="271dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="금액 선택:"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/amountSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:entries="@array/amount_categories" />
+
+
+    <Button
+        android:id="@+id/generateDietButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/team_project"
+        android:textStyle="bold"
+
+        android:text="식단보기" />
+
+    <TextView
+        android:id="@+id/dietTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/team_project"
+        android:textStyle="bold"
+        android:text="뒤로가기" />
+
+</LinearLayout>
